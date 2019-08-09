@@ -6,3 +6,6 @@ spring:
     url: jdbc:mysql://127.0.0.1/sell?characterEncoding=utf-8&useSSL=false
   jpa:
     show-sql: true # 打印sql语句
+server:
+  servlet:
+    context-path: /sell # url访问前缀 以项目名开头

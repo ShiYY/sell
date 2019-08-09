@@ -1,6 +1,6 @@
-package com.shiyang.sell.dataobject;
+package com.shiyang.sell.repository;
 
-import com.shiyang.sell.repository.ProductCategoryRepository;
+import com.shiyang.sell.dataobject.ProductCategory;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
