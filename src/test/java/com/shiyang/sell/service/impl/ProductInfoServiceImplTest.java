@@ -46,10 +46,10 @@ public class ProductInfoServiceImplTest {
     public void save() {
         ProductInfo productInfo = new ProductInfo();
         productInfo.setProductId("2");
-        productInfo.setProductName("蔓越阑珊");
+        productInfo.setProductName("幽兰拿铁");
         productInfo.setProductPrice(new BigDecimal(15.00));
         productInfo.setProductStock(50);
-        productInfo.setProductDescription("奶茶榜眼");
+        productInfo.setProductDescription("奶茶状元");
         productInfo.setProductStatus(0);
         productInfo.setCategoryType(2);
         productInfo.setCreateTime(new Date());
