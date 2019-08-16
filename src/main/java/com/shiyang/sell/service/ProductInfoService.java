@@ -1,6 +1,7 @@
 package com.shiyang.sell.service;
 
 import com.shiyang.sell.dataobject.ProductInfo;
+import com.shiyang.sell.dto.CartDto;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
@@ -17,5 +18,9 @@ public interface ProductInfoService {
     
     ProductInfo save(ProductInfo productInfo);
     
-    // TODO 加库存 减库存
+    /** 加库存 */
+    void increaseStock(List<CartDto> cartDtos);
+    
+    /** 减库存 */
+    void decreaseStock(List<CartDto> cartDtos);
 }
